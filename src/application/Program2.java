@@ -24,7 +24,11 @@ public class Program2 {
 			System.out.println(obj);
 		}
 		
-		
+		System.out.println("\n====TEST 3: department update =====");
+		department = departmentDao.findById(6);
+		department.setName("Games");
+		departmentDao.update(department);
+		System.out.println("Upadate Completed!");
 	}
 
 }
