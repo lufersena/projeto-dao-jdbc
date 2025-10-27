@@ -43,6 +43,8 @@ public class Program2 {
 		departmentDao.deleteById(d);
 		System.out.println("Delete completed!!");
 		
+		sc.close();
+		
 	}
 
 }
